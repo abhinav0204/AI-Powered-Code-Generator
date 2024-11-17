@@ -19,13 +19,13 @@ This project uses Azure OpenAI's GPT model to generate Python code with detailed
 ## Installation
 
 1. Clone the repository:
-
+```bash
 git clone https://github.com/your-username/AI-Powered-Code-Generator.git
-
+```
 2. Install required libraries:
-
+```bash
 pip install openai tenacity
-
+```
 
 3. Set up your Azure OpenAI API credentials in the script.
 
@@ -39,4 +39,5 @@ pip install openai tenacity
 
 Input prompt:
 ```python
-"Write a Python function that calculates the factorial of a number. Include detailed comments."
+"Write a Python function that calculates the factorial of a number."
+```
