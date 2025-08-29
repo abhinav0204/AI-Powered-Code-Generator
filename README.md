@@ -41,3 +41,23 @@ Input prompt:
 ```python
 "Write a Python function that calculates the factorial of a number."
 ```
+
+Output:
+```python
+def factorial(n):
+    """Calculate factorial of n."""
+    result = 1
+    for i in range(1, n + 1):
+        result *= i
+    return result
+```
+
+## Command-line Example
+
+For a quick demonstration without Azure OpenAI credentials, run the provided script with a prompt:
+
+```bash
+python generate_code.py "function that adds two numbers"
+```
+
+This uses a dummy generator and prints placeholder code. Replace the logic in `generate_code.py` with an actual API call once credentials are available.
